@@ -24,6 +24,9 @@ class secondActivity : AppCompatActivity() {
 //        viewPager.adapter = PagerAdaptor(supportFragmentManager)
 //        tablayout.setupWithViewPager(viewPager)
 
+
+
+
         viewPager.adapter = PagerAdaptor(supportFragmentManager, lifecycle)
         TabLayoutMediator(tablayout, viewPager){
                 tab, position ->
